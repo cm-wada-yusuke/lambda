@@ -1,0 +1,8 @@
+{
+  "description": "scala sbt project",
+  "handler": "lambda.NotifyController::handler",
+  "runtime": "java",
+  "hooks": {
+    "build": "sbt 'assembly'"
+  }
+}
